@@ -1,0 +1,31 @@
+td{
+    width: 130px;
+    height: 130px;
+    border: 2px solid lightgrey;
+    cursor: pointer;
+    
+}
+
+td:hover{
+    transform: scale(1.2);
+    background-color: white;
+}
+
+table{
+    margin-top:80px;
+}
+
+.gameOver{
+    z-index: 100;
+    position: fixed;
+    top:0;
+    width:100%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid red;
+}
+
+#im{
+    display: block;
+    margin: auto;
+}
